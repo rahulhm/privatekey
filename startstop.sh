@@ -8,7 +8,7 @@ vm_name="catalog-service"
 az vm start --resource-group $resource_group_name --name $vm_name
 
 # Stop the VM using az command
-#az vm deallocate --resource-group $resource_group_name --name $vm_name
+az vm deallocate --resource-group $resource_group_name --name $vm_name
 
 updated
 new version
